@@ -1,0 +1,66 @@
+* {
+font-family: 'Arvo', serif;
+background-color: gray;
+}
+body {
+  text-align: center;
+
+}
+html {
+  height: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+img {
+  padding: 40px;
+}
+main {
+  display: inline-flex;
+}
+.un{
+  width:200px;
+  height:300px;
+  text-align: left;
+  display: none;
+}
+.deux{
+  width:200px;
+  height:300px;
+  text-align: left;
+  display: none;
+}
+.trois{
+  width:200px;
+  height:300px;
+  text-align: left;
+  display: none;
+}
+.quatre{
+  width:200px;
+  height:300px;
+  text-align: left;
+  display: none;
+}
+.cinq{
+  width:200px;
+  height:300px;
+  text-align: left;
+  display: none;
+}
+.six {
+  width:200px;
+  height:300px;
+  text-align: left;
+  display: none;
+}
+
+.img:hover .un{
+  display: block;
+}
+
+#epaule {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius:10px;
+}
