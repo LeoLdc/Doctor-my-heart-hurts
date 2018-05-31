@@ -17,50 +17,132 @@ img {
 main {
   display: inline-flex;
 }
-.un{
-  width:200px;
-  height:300px;
-  text-align: left;
-  display: none;
-}
-.deux{
-  width:200px;
-  height:300px;
-  text-align: left;
-  display: none;
-}
-.trois{
-  width:200px;
-  height:300px;
-  text-align: left;
-  display: none;
-}
-.quatre{
-  width:200px;
-  height:300px;
-  text-align: left;
-  display: none;
-}
-.cinq{
-  width:200px;
-  height:300px;
-  text-align: left;
-  display: none;
-}
-.six {
-  width:200px;
-  height:300px;
-  text-align: left;
-  display: none;
-}
+.un, .deux, .trois, .quatre, .cinq, .six {
 
-.img:hover .un{
-  display: block;
+  text-align: left;
+  display: none;
 }
 
 #epaule {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   background-color: black;
-  border-radius:10px;
+  border-radius:20px;
+  position:relative;
+  top:140px;
+  right:180px;
+  opacity: 0.7;
+}
+#coude {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius:20px;
+  position:relative;
+  top:220px;
+  right:108px;
+  opacity: 0.7;
+}
+#poignet {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius:20px;
+  position:relative;
+  top:265px;
+  right:262px;
+  opacity: 0.7;
+}
+#hanche {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius:20px;
+  position:relative;
+  top:280px;
+  right:220px;
+  opacity: 0.7;
+}
+#genou {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius:20px;
+  position:relative;
+  top:400px;
+  right:310px;
+  opacity: 0.7;
+}
+#cheville {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius:20px;
+  position:relative;
+  top:470px;
+  right:308px;
+  opacity: 0.7;
+}
+#epaule:hover .un {
+	display: block;
+
+}
+#coude:hover .deux {
+	display: block;
+
+}
+#poignet:hover .trois {
+	display: block;
+
+}
+#hanche:hover .quatre {
+	display: block;
+
+}
+#genou:hover .cinq {
+	display: block;
+
+}
+#cheville:hover .six {
+	display: block;
+
+}
+p, strong {
+  width: 219px;
+  height:578px;
+}
+#texteun {
+position:absolute;
+left:158px;
+top: -50px;
+}
+#textedeux {
+position:absolute;
+left:48px;
+top:-129px;
+}
+#textetrois {
+position:absolute;
+left:162px;
+top: -173px;
+}
+#textequatre {
+position:absolute;
+left:79px;
+top: -189px;
+}
+#textecinq {
+position:absolute;
+left:128px;
+top: -305px;
+}
+#textesix {
+position:absolute;
+left:87px;
+top: -377px;
+}
+html {
+  height: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
 }
